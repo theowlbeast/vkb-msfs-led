@@ -7,15 +7,11 @@ Steps to run:
 2. Install [Microsoft Visual C++ Build Tools](https://go.microsoft.com/fwlink/?LinkId=691126),
    choose "MSVC v140 - VS 2015 C++ build tools (v14.00)" and one of the 
    "Windows 10 SDK" (for building USB interface extensions)
-3. run `python3 -m pip install venv`
+3. clone `https://github.com/CkovMk/pyvkb.git` and install `pyvkb` from source. (`python .\setup.py install`)
 4. change to the directory you checked out this repository
 5. run `python3 -m venv .`
 6. run `python3 -m pip install -r requirements.txt`
-7. run `copy RequestList.py Lib\site-packages\SimConnect\RequestList.py`
-8. run `copy vkb_device_init.py Lib\site-packages\vkb\devices\__init__.py`
-9. run `copy vkb_led_init.py Lib\site-packages\vkb\led\__init__.py`
-10. run `copy nxtext.py Lib\site-packages\vkb\devices\nxtext.py`
-11. run `python3 vkb-msfs-leds.py` after you started MSFS.
+7.  run `python3 vkb-msfs-leds.py` after you started MSFS.
 
 When you running `python3 -m pip install -r requirements.txt`, you may 
 encounter `LINK : fatal error LNK1158: cannot run 'rc.exe'`. If this occurs, 
