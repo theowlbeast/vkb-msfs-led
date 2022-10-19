@@ -3,6 +3,7 @@ hid==1.0.5
 jellyfish==0.8.9
 prettytable==2.4.0
 prompt-toolkit==3.0.22
+pygame==2.1.2
 Pygments==2.10.0
 pyparsing==3.0.5
 python-nubia==0.2b2
