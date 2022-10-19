@@ -8,6 +8,7 @@ Pygments==2.10.0
 pyparsing==3.0.5
 python-nubia==0.2b2
 pywinusb==0.4.2
+readchar==4.0.3
 SimConnect==0.4.26
 termcolor==1.1.0
 wcwidth==0.2.5
